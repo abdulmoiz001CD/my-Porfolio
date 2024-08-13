@@ -291,6 +291,8 @@ footer {
     border-radius: 22rem;
     max-width: 30rem;
     width: 130%;
+    border:3px solid #1b71a7;
+    background-color: #003251;
 }
 
 
