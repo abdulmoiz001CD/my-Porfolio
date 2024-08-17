@@ -17,8 +17,14 @@ Technologies Used
 HTML: Structuring the content and layout of the site.
 CSS: Styling the site with modern techniques including Flexbox, CSS Grid, and animations.
 JavaScript: Enhancing interactivity and functionality.
+BootStrape: Leveraging a powerful CSS framework for responsive, mobile-first designs.
 Google Fonts: Integrating stylish fonts for a polished look.
 Font Awesome: Utilizing icons for enhanced visual appeal.
 
-Live Demo :
-Check out the live demo of my portfolio here.
+
+
+🔗 Explore my work: my-portfolio102.netlify.app
+
+Feel free to connect with me for any collaborations, feedback, or opportunities! 😊 Let's build something awesome together! 💡
+
+#frontend #webdevelopment #javascript #react #portfolio #bootstrap #html #css
