@@ -56,6 +56,15 @@ nav {
   align-items: center;
   padding: 1rem;
 }
+
+
+#bar{
+   color: #ffffff;
+   font-size: 16px;
+   cursor: pointer;
+   display: none;
+}
+
 nav ul {
   display: flex;
   gap: 3rem;
@@ -224,18 +233,18 @@ nav li:hover {
 
 
 
-/* Contact Section */
-#contact {
+/* Contactpage Section */
+#contactpage {
   background: var(--dark-color);
 }
 
-#contact h2 {
+#contactpage h2 {
   font-size: 6rem;
   text-align: center;
   margin: 2rem 0;
 }
 
-#contact .container {
+#contactpage .container {
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -293,6 +302,7 @@ footer {
     width: 130%;
     border:3px solid #1b71a7;
     background-color: #003251;
+    box-shadow: 0px 4px 14px rgba(184, 178, 178, 0.487);
 }
 
 
@@ -317,81 +327,6 @@ a{
   height: 17vh;
 }
 
-
-/* Media Query */
-
-
-
-
-
-
-@media (max-width: 786px) {
-  html {
-    font-size: 40%;
-  }
-  #hero .container {
-    flex-direction: column;
-  }
-  .hero_image {
-    display: grid;
-    place-items: center;
-  }
-  #contact .container {
-    height: 70vh;
-  }
-
-  .profilepic{
-    height: 30vh;
-    border-radius: 22rem;
-}
-
-
-
-}
-@media (max-width: 500px) {
-  html {
-    font-size: 32%;
-  }
-  #hero .container {
-    flex-direction: column;
-  }
-  .hero_image {
-    display: grid;
-    place-items: center;
-  }
-  #contact .container {
-    height: 50vh;
-  }
-
-
-  .profilepic{
-    height: 25vh;
-    border-radius: 22rem;}
-
-    #card_restaurent1{
-      height: 8.3vh;
-    }
-    
-    
-    #card_restaurent3{
-      height: 8.3vh;
-    }
-
-  
-    .container{
-      padding-right: 9rem;
-    }
-}
-
-
-@media (max-width:376px){
-    .profilepic{
-        height: 20vh;
-        border-radius: 22rem;}
-
-        #SendMail{
-        font-size: 2.4rem;        }
-}
 
 
 
@@ -418,3 +353,297 @@ a{
   border-radius: 0.7rem;
   width: 5.5frem;
 }
+
+
+
+
+
+
+
+
+
+/* About Section Styling */
+#about {
+  background-color: #f5f5f5;
+  padding: 50px;
+  max-width: 1800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  color: #333333;
+  background-color: #0089b7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Flexbox container for About items */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-item {
+  background-color: #0b465f;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  flex-basis: 48%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 2px 8px rgba(4, 33, 83, 0.1);
+}
+
+.about-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 18px 40px rgba(0, 0, 0, 0.517);
+}
+
+.about-item h3 {
+  font-size: 28px;
+  color:#ffeb3b;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about-item p, .about-item ul {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.about-item ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about-item li {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* Contact Section Styling */
+#contact {
+  background-color: #0b465f; /* Dark teal background */
+  padding: 50px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 30px;
+}
+
+.contact-item {
+  background-color: rgba(17, 140, 216, 0.986);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #e5fc16;
+}
+
+.contact-item a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: #ff6f61; /* Coral color for hover effect */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+
+
+
+
+
+@media (max-width: 786px) {
+  html {
+    font-size: 40%;
+  }
+  #hero .container {
+    flex-direction: column;
+  }
+  .hero_image {
+    display: grid;
+    place-items: center;
+  }
+  #contactpage .container {
+    height: 70vh;
+  }
+
+  .profilepic{
+    height: 30vh;
+    border-radius: 22rem;
+}
+
+.about-container {
+  flex-direction: column;
+}
+
+.about-item {
+  flex-basis: 100%;
+}
+
+#about {
+  padding: 30px;
+}
+
+#about h2 {
+  font-size: 28px;
+}
+
+.about-item h3 {
+  font-size: 24px;
+}
+
+.about-item p, .about-item ul {
+  font-size: 16px;
+}
+
+
+.contact-info {
+  grid-template-columns: 1fr; /* Stack all sections in one column on smaller screens */
+}
+
+#contact h2 {
+  font-size: 28px;
+}
+
+}
+
+
+
+@media (max-width: 500px) {
+  html {
+    font-size: 32%;
+  }
+  #hero .container {
+    flex-direction: column;
+  }
+  .hero_image {
+    display: grid;
+    place-items: center;
+  }
+  #contactpage .container {
+    height: 50vh;
+  }
+
+
+  .profilepic{
+    height: 25vh;
+    border-radius: 22rem;}
+
+    #card_restaurent1{
+      height: 8.3vh;
+    }
+    
+    
+    #card_restaurent3{
+      height: 8.3vh;
+    }
+
+  
+    .container{
+      padding-right: 9rem;
+    }
+    
+ 
+
+}
+
+
+@media (max-width:376px){
+    .profilepic{
+        height: 20vh;
+        border-radius: 22rem;}
+
+        #SendMail{
+        font-size: 2.4rem;    }
+
+        #bar{
+        display: flex;
+        gap: 8px;
+        position: absolute;
+        right: 14px;
+        top: 5px;
+        /* background-color: #003251; */
+        padding: 5px;
+        }
+
+        #ulist{
+          display: none;
+        }
+
+        nav #ulist_first{
+          display: none;
+          flex-direction: column;
+          background-color: #003251;
+          
+        }
+}
+
+
+
+@media(max-width:321px){
+
+
+
+  
+}
+
+
+
