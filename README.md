@@ -3,6 +3,7 @@
 Welcome to my portfolio website! This is a showcase of my work as a Front-End Developer, featuring various projects that demonstrate my skills and experience in web development.
 
 Features
+
 Responsive Design: The site adapts to various screen sizes, ensuring an optimal viewing experience on devices ranging from large desktop monitors to mobile phones.
 
 Modern UI: Utilizes contemporary design principles and technologies, including Flexbox and CSS Grid, to create a clean and user-friendly interface.
