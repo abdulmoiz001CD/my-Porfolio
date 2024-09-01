@@ -32,6 +32,9 @@ body {
 
   padding-left: 9rem;
 }
+
+
+
 a {
   text-decoration: none;
   color: white;
@@ -56,6 +59,22 @@ nav {
   align-items: center;
   padding: 1rem;
 }
+
+
+#aboutNav{
+justify-content: flex-start;
+gap: 0.5rem;
+}
+
+
+.arrow-left{
+  width: 0;
+  height: 0;
+ border-top: 13px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 24px solid white;
+}
+
 
 
 #bar{
@@ -484,30 +503,7 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media Query */
-
-
-
-
 
 
 @media (max-width: 786px) {
@@ -563,6 +559,15 @@ a{
   font-size: 28px;
 }
 
+
+.arrow-left{
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 15px solid white; 
+}
+
 }
 
 
@@ -601,6 +606,19 @@ a{
       padding-right: 9rem;
     }
     
+
+    .arrow-left{
+      width: 0;
+      height: 0;
+      border-top: 7px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 15px solid white; 
+    }
+
+    #aboutlogo{
+      padding-top: 0.3rem;
+      
+    }
  
 
 }
@@ -619,14 +637,26 @@ a{
         gap: 8px;
         position: absolute;
         right: 14px;
-        top: 5px;
+        top: 1px;
         /* background-color: #003251; */
         padding: 5px;
+        align-items:baseline;
+        }
+
+
+        #iconbar{
+          font-size: 3.8rem;
+          transition: 0.5s ease-in-out;
         }
 
         #ulist{
           display: none;
         }
+
+        #ulist_first a li{
+          font-size: 2.5rem;
+          padding-left: 1rem;
+        } 
 
         nav #ulist_first{
           display: none;
